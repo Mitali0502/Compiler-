@@ -14,7 +14,7 @@ public class Main {
         FileOutputStream f = new FileOutputStream("Output.txt");
 
         System.setOut(new PrintStream(f));
-        JFrame frame = new JFrame("Priyal's Compiler");
+        JFrame frame = new JFrame("Mitali's Compiler");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300,300);
         JButton compileButton = new JButton("Compiler running");
@@ -42,7 +42,7 @@ public class Main {
         binaryGenerator(input);
 
         JOptionPane.showMessageDialog( null, "Output.txt and Binary.bin Files Generated.",
-                "priyal's Compiler", JOptionPane.PLAIN_MESSAGE );
+                "Mitali's Compiler", JOptionPane.PLAIN_MESSAGE );
 
     }
     //binary code generator 
